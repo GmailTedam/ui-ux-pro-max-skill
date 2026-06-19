@@ -1,0 +1,2715 @@
+{
+  "communities": {
+    "0": [
+      "commands_init",
+      "commands_init_assets_dir",
+      "commands_init_dirname",
+      "commands_init_initcommand",
+      "commands_init_initoptions",
+      "commands_init_templateinstall",
+      "commands_init_trygithubinstall",
+      "commands_uninstall",
+      "commands_uninstall_removeskilldir",
+      "commands_uninstall_uninstallcommand",
+      "commands_uninstall_uninstalloptions",
+      "commands_update",
+      "commands_update_updatecommand",
+      "commands_update_updateoptions",
+      "commands_versions",
+      "commands_versions_versionscommand",
+      "src_index",
+      "src_index_dirname",
+      "src_index_filename",
+      "src_index_pkg",
+      "src_index_program",
+      "types_index",
+      "types_index_ai_folders",
+      "types_index_ai_types",
+      "types_index_aitype",
+      "types_index_asset",
+      "types_index_installconfig",
+      "types_index_installtype",
+      "types_index_platformconfig",
+      "types_index_release",
+      "utils_detect",
+      "utils_detect_detectaitype",
+      "utils_detect_detectionresult",
+      "utils_detect_getaitypedescription",
+      "utils_extract",
+      "utils_extract_cleanup",
+      "utils_extract_copyfolders",
+      "utils_extract_createtempdir",
+      "utils_extract_excluded_files",
+      "utils_extract_execasync",
+      "utils_extract_exists",
+      "utils_extract_extractzip",
+      "utils_extract_findextractedroot",
+      "utils_extract_installfromzip",
+      "utils_github",
+      "utils_github_checkratelimit",
+      "utils_github_downloadrelease",
+      "utils_github_fetchreleases",
+      "utils_github_getasseturl",
+      "utils_github_getlatestrelease",
+      "utils_github_githubdownloaderror",
+      "utils_github_githubdownloaderror_constructor",
+      "utils_github_githubratelimiterror",
+      "utils_github_githubratelimiterror_constructor",
+      "utils_logger",
+      "utils_logger_logger",
+      "utils_template",
+      "utils_template_ai_to_platform",
+      "utils_template_assets_dir",
+      "utils_template_copydataandscripts",
+      "utils_template_dirname",
+      "utils_template_exists",
+      "utils_template_generateallplatformfiles",
+      "utils_template_generateplatformfiles",
+      "utils_template_getsupportedaitypes",
+      "utils_template_loadallplatformconfigs",
+      "utils_template_loadplatformconfig",
+      "utils_template_loadtemplate",
+      "utils_template_platformconfig",
+      "utils_template_renderfrontmatter",
+      "utils_template_renderskillfile"
+    ],
+    "1": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_100_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_100_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_200_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_200_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_300_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_300_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_400_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_400_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_500_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_500_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_50_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_50_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_600_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_600_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_700_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_700_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_800_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_800_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_900_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_900_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_950_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_950_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_blue_50",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_blue_500",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_blue_600",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_blue_700",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_blue_800",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_blue",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_gray",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_green",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_red",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_white",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_yellow",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_100",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_200",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_300",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_400",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_50",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_500",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_600",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_700",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_800",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_900",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_950",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_green_500",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_green_600",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive_color",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_red_500",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_red_600",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_red_700",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_white_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_white_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_yellow_500"
+    ],
+    "2": [
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_100_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_100_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_200_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_200_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_300_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_300_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_400_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_400_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_500_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_500_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_50_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_50_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_600_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_600_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_700_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_700_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_800_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_800_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_900_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_900_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_950_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_950_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_blue_50",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_blue_500",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_blue_600",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_blue_700",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_blue_800",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_blue",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_gray",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_green",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_red",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_white",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_yellow",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_100",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_200",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_300",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_400",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_50",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_500",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_600",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_700",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_800",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_900",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_gray_950",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_green_500",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_green_600",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive_color",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_red_500",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_red_600",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_red_700",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_white_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_white_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_yellow_500"
+    ],
+    "3": [
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_background_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_background_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_background",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_destructive",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_destructive_foreground",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_foreground",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_muted",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_muted_foreground",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_primary",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_primary_foreground",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_primary_hover",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_ring",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_secondary",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_secondary_foreground",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_component_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_component_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_dark",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_dark_semantic",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_destructive_foreground_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_destructive_foreground_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_destructive_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_destructive_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_foreground_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_foreground_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_muted_foreground_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_muted_foreground_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_muted_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_muted_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primary_foreground_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primary_foreground_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primary_hover_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primary_hover_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primary_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primary_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_ring_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_ring_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_schema",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_secondary_foreground_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_secondary_foreground_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_secondary_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_secondary_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_section_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_section_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_semantic",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_semantic_color",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_semantic_spacing",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_component",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_section"
+    ],
+    "4": [
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_1",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_104",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_112",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_124",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_147",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_158",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_18",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_182",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_195",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_205",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_22",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_223",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_248",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_45",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_51",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_56",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_61",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_66",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_71",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_90",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_96",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_temp_project",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_dry_run",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_no_config",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_success",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_already_installed",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_dry_run",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_no_components",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_no_config",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_npx_not_found",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_subprocess_error",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_success",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_with_overwrite",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_check_shadcn_config_exists",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_check_shadcn_config_not_exists",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_empty",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_no_config",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_with_files",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_init_custom_project_root",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_init_default_project_root",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_init_dry_run",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_list_installed_empty",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_list_installed_no_config",
+      "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_list_installed_with_components"
+    ],
+    "5": [
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_bg_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_bg_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_border_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_border_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_button_bg",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_button_fg",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_button_font_size",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_button_hover_bg",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_button_padding_x",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_button_padding_y",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_button_radius",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_card_bg",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_card_border",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_card_padding",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_card_radius",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_card_shadow",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_border",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_component",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_component_button",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_component_card",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_component_input",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fg_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fg_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_focus_ring_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_focus_ring_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_font_size_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_font_size_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_hover_bg_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_hover_bg_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_input_bg",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_input_border",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_input_focus_ring",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_input_padding_x",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_input_padding_y",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_input_radius",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_padding_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_padding_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_padding_x_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_padding_x_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_padding_y_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_padding_y_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_shadow_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_shadow_value"
+    ],
+    "6": [
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_any",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_path",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_main",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_117",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_130",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_143",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_156",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_168",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_17",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_186",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_197",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_218",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_233",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_243",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_25",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_251",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_268",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_39",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_44",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_55",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_78",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_91",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_add_breakpoints",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_add_color_palette",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_add_colors",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_add_fonts",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_add_plugins",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_add_spacing",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_base_config",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_default_content_paths",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_default_output_path",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_format_plugins",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_config_string",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_javascript",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_typescript",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_indent_json",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_init",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_recommend_plugins",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_validate_config",
+      "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_write_config"
+    ],
+    "7": [
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_any",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_path",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_main",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_117",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_130",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_143",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_156",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_168",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_17",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_186",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_197",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_218",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_233",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_243",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_25",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_251",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_268",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_39",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_44",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_55",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_78",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_rationale_91",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_add_breakpoints",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_add_color_palette",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_add_colors",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_add_fonts",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_add_plugins",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_add_spacing",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_base_config",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_default_content_paths",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_default_output_path",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_format_plugins",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_config_string",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_javascript",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_generate_typescript",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_indent_json",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_init",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_recommend_plugins",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_validate_config",
+      "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator_write_config"
+    ],
+    "8": [
+      "cli_assets_scripts_design_system_py_scripts_design_system",
+      "cli_assets_scripts_design_system_py_scripts_design_system_ansi_ljust",
+      "cli_assets_scripts_design_system_py_scripts_design_system_designsystemgenerator",
+      "cli_assets_scripts_design_system_py_scripts_design_system_designsystemgenerator_apply_reasoning",
+      "cli_assets_scripts_design_system_py_scripts_design_system_designsystemgenerator_extract_results",
+      "cli_assets_scripts_design_system_py_scripts_design_system_designsystemgenerator_find_reasoning_rule",
+      "cli_assets_scripts_design_system_py_scripts_design_system_designsystemgenerator_generate",
+      "cli_assets_scripts_design_system_py_scripts_design_system_designsystemgenerator_init",
+      "cli_assets_scripts_design_system_py_scripts_design_system_designsystemgenerator_load_reasoning",
+      "cli_assets_scripts_design_system_py_scripts_design_system_designsystemgenerator_multi_domain_search",
+      "cli_assets_scripts_design_system_py_scripts_design_system_designsystemgenerator_select_best_match",
+      "cli_assets_scripts_design_system_py_scripts_design_system_detect_page_type",
+      "cli_assets_scripts_design_system_py_scripts_design_system_format_ascii_box",
+      "cli_assets_scripts_design_system_py_scripts_design_system_format_markdown",
+      "cli_assets_scripts_design_system_py_scripts_design_system_format_master_md",
+      "cli_assets_scripts_design_system_py_scripts_design_system_format_page_override_md",
+      "cli_assets_scripts_design_system_py_scripts_design_system_generate_design_system",
+      "cli_assets_scripts_design_system_py_scripts_design_system_generate_intelligent_overrides",
+      "cli_assets_scripts_design_system_py_scripts_design_system_hex_to_ansi",
+      "cli_assets_scripts_design_system_py_scripts_design_system_persist_design_system",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_1102",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_123",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_160",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_164",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_254",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_268",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_276",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_283",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_38",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_423",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_44",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_52",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_534",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_562",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_613",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_65",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_887",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_89",
+      "cli_assets_scripts_design_system_py_scripts_design_system_rationale_996",
+      "cli_assets_scripts_design_system_py_scripts_design_system_section_header"
+    ],
+    "9": [
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_ansi_ljust",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_designsystemgenerator",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_designsystemgenerator_apply_reasoning",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_designsystemgenerator_extract_results",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_designsystemgenerator_find_reasoning_rule",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_designsystemgenerator_generate",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_designsystemgenerator_init",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_designsystemgenerator_load_reasoning",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_designsystemgenerator_multi_domain_search",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_designsystemgenerator_select_best_match",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_detect_page_type",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_format_ascii_box",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_format_markdown",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_format_master_md",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_format_page_override_md",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_generate_design_system",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_generate_intelligent_overrides",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_hex_to_ansi",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_persist_design_system",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_1102",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_123",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_160",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_164",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_254",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_268",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_276",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_283",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_38",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_423",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_44",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_52",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_534",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_562",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_613",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_65",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_887",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_89",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_rationale_996",
+      "src_ui_ux_pro_max_scripts_design_system_py_scripts_design_system_section_header"
+    ],
+    "10": [
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_bm25",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_bm25_fit",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_bm25_init",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_bm25_score",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_bm25_tokenize",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_calculate_pattern_break",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_detect_domain",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_get_background_config",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_get_color_for_emotion",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_get_layout_for_goal",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_get_typography_for_slide",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_load_csv",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_load_decision_csv",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_108",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_114",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_139",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_159",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_181",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_216",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_230",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_248",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_284",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_293",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_302",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_326",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_353",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_45",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_58",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_63",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_82",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_search",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_search_all",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_search_csv",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_search_with_context",
+      "agents_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_should_use_full_bleed"
+    ],
+    "11": [
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_bm25",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_bm25_fit",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_bm25_init",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_bm25_score",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_bm25_tokenize",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_calculate_pattern_break",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_detect_domain",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_get_background_config",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_get_color_for_emotion",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_get_layout_for_goal",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_get_typography_for_slide",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_load_csv",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_load_decision_csv",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_108",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_114",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_139",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_159",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_181",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_216",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_230",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_248",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_284",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_293",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_302",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_326",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_353",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_45",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_58",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_63",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_rationale_82",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_search",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_search_all",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_search_csv",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_search_with_context",
+      "claude_skills_design_system_scripts_slide_search_core_py_scripts_slide_search_core_should_use_full_bleed"
+    ],
+    "12": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_0_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_0_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_10_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_10_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_12_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_12_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_16_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_16_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_1_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_1_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_2_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_2_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_3_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_3_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_4_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_4_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_5_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_5_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_6_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_6_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_8_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_8_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive_spacing",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_0",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_1",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_10",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_12",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_16",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_2",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_3",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_4",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_5",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_6",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_8"
+    ],
+    "13": [
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_0_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_0_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_10_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_10_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_12_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_12_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_16_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_16_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_1_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_1_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_2_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_2_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_3_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_3_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_4_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_4_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_5_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_5_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_6_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_6_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_8_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_8_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive_spacing",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_0",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_1",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_10",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_12",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_16",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_2",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_3",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_4",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_5",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_6",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_8"
+    ],
+    "14": [
+      "agents_skills_design_system_scripts_html_token_validator_py_path",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_get_context",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_is_allowed_exception",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_is_allowed_rgba",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_is_inside_block",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_load_css_variables",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_main",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_print_result",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_print_summary",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_104",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_109",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_116",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_186",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_197",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_206",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_222",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_63",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_79",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_90",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_98",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_validate_directory",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_validate_file",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_validate_html",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_validationresult",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_validationresult_add_error",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_validationresult_add_warning",
+      "agents_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_validationresult_init"
+    ],
+    "15": [
+      "claude_skills_design_system_scripts_html_token_validator_py_path",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_get_context",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_is_allowed_exception",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_is_allowed_rgba",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_is_inside_block",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_load_css_variables",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_main",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_print_result",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_print_summary",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_104",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_109",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_116",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_186",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_197",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_206",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_222",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_63",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_79",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_90",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_rationale_98",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_validate_directory",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_validate_file",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_validate_html",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_validationresult",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_validationresult_add_error",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_validationresult_add_warning",
+      "claude_skills_design_system_scripts_html_token_validator_py_scripts_html_token_validator_validationresult_init"
+    ],
+    "16": [
+      "cli_package",
+      "cli_package_author",
+      "cli_package_bin",
+      "cli_package_bin_uipro",
+      "cli_package_dependencies",
+      "cli_package_dependencies_chalk",
+      "cli_package_dependencies_commander",
+      "cli_package_dependencies_ora",
+      "cli_package_dependencies_prompts",
+      "cli_package_description",
+      "cli_package_devdependencies",
+      "cli_package_devdependencies_types_bun",
+      "cli_package_devdependencies_types_node",
+      "cli_package_devdependencies_types_prompts",
+      "cli_package_devdependencies_typescript",
+      "cli_package_files",
+      "cli_package_keywords",
+      "cli_package_license",
+      "cli_package_name",
+      "cli_package_scripts",
+      "cli_package_scripts_build",
+      "cli_package_scripts_dev",
+      "cli_package_scripts_prepublishonly",
+      "cli_package_type",
+      "cli_package_version"
+    ],
+    "17": [
+      "agents_skills_design_scripts_cip_core_py_cip_core",
+      "agents_skills_design_scripts_cip_core_py_cip_core_bm25",
+      "agents_skills_design_scripts_cip_core_py_cip_core_bm25_fit",
+      "agents_skills_design_scripts_cip_core_py_cip_core_bm25_init",
+      "agents_skills_design_scripts_cip_core_py_cip_core_bm25_score",
+      "agents_skills_design_scripts_cip_core_py_cip_core_bm25_tokenize",
+      "agents_skills_design_scripts_cip_core_py_cip_core_detect_domain",
+      "agents_skills_design_scripts_cip_core_py_cip_core_get_cip_brief",
+      "agents_skills_design_scripts_cip_core_py_cip_core_load_csv",
+      "agents_skills_design_scripts_cip_core_py_cip_core_rationale_106",
+      "agents_skills_design_scripts_cip_core_py_cip_core_rationale_112",
+      "agents_skills_design_scripts_cip_core_py_cip_core_rationale_137",
+      "agents_skills_design_scripts_cip_core_py_cip_core_rationale_153",
+      "agents_skills_design_scripts_cip_core_py_cip_core_rationale_175",
+      "agents_skills_design_scripts_cip_core_py_cip_core_rationale_185",
+      "agents_skills_design_scripts_cip_core_py_cip_core_rationale_43",
+      "agents_skills_design_scripts_cip_core_py_cip_core_rationale_56",
+      "agents_skills_design_scripts_cip_core_py_cip_core_rationale_61",
+      "agents_skills_design_scripts_cip_core_py_cip_core_rationale_80",
+      "agents_skills_design_scripts_cip_core_py_cip_core_search",
+      "agents_skills_design_scripts_cip_core_py_cip_core_search_all",
+      "agents_skills_design_scripts_cip_core_py_cip_core_search_csv"
+    ],
+    "18": [
+      "claude_skills_design_scripts_cip_core_py_cip_core",
+      "claude_skills_design_scripts_cip_core_py_cip_core_bm25",
+      "claude_skills_design_scripts_cip_core_py_cip_core_bm25_fit",
+      "claude_skills_design_scripts_cip_core_py_cip_core_bm25_init",
+      "claude_skills_design_scripts_cip_core_py_cip_core_bm25_score",
+      "claude_skills_design_scripts_cip_core_py_cip_core_bm25_tokenize",
+      "claude_skills_design_scripts_cip_core_py_cip_core_detect_domain",
+      "claude_skills_design_scripts_cip_core_py_cip_core_get_cip_brief",
+      "claude_skills_design_scripts_cip_core_py_cip_core_load_csv",
+      "claude_skills_design_scripts_cip_core_py_cip_core_rationale_106",
+      "claude_skills_design_scripts_cip_core_py_cip_core_rationale_112",
+      "claude_skills_design_scripts_cip_core_py_cip_core_rationale_137",
+      "claude_skills_design_scripts_cip_core_py_cip_core_rationale_153",
+      "claude_skills_design_scripts_cip_core_py_cip_core_rationale_175",
+      "claude_skills_design_scripts_cip_core_py_cip_core_rationale_185",
+      "claude_skills_design_scripts_cip_core_py_cip_core_rationale_43",
+      "claude_skills_design_scripts_cip_core_py_cip_core_rationale_56",
+      "claude_skills_design_scripts_cip_core_py_cip_core_rationale_61",
+      "claude_skills_design_scripts_cip_core_py_cip_core_rationale_80",
+      "claude_skills_design_scripts_cip_core_py_cip_core_search",
+      "claude_skills_design_scripts_cip_core_py_cip_core_search_all",
+      "claude_skills_design_scripts_cip_core_py_cip_core_search_csv"
+    ],
+    "19": [
+      "colorpalettemanagement_accessibilityrequirements",
+      "colorpalettemanagement_brandcompliancevalidation",
+      "colorpalettemanagement_colorextraction",
+      "colorpalettemanagement_colorsystemstructure",
+      "colorpalettemanagement_toolsresources",
+      "consistencychecklist_visualconsistency",
+      "logousagerules_colorusage",
+      "logousagerules_logovariants",
+      "logousagerules_platformspecificguidelines",
+      "typographyspecifications_accessibility",
+      "typographyspecifications_commonfontpairings",
+      "typographyspecifications_cssimplementation",
+      "typographyspecifications_fontstackstructure",
+      "typographyspecifications_fontweights",
+      "typographyspecifications_letterspacing",
+      "typographyspecifications_lineheightguidelines",
+      "typographyspecifications_paragraphspacing",
+      "typographyspecifications_tailwindconfig",
+      "typographyspecifications_typescale",
+      "update_overview",
+      "visualidentitybasics_corevisualelements",
+      "visualidentitybasics_quickchecks"
+    ],
+    "20": [
+      "agents_skills_design_scripts_logo_core_py_logo_core",
+      "agents_skills_design_scripts_logo_core_py_logo_core_bm25",
+      "agents_skills_design_scripts_logo_core_py_logo_core_bm25_fit",
+      "agents_skills_design_scripts_logo_core_py_logo_core_bm25_init",
+      "agents_skills_design_scripts_logo_core_py_logo_core_bm25_score",
+      "agents_skills_design_scripts_logo_core_py_logo_core_bm25_tokenize",
+      "agents_skills_design_scripts_logo_core_py_logo_core_detect_domain",
+      "agents_skills_design_scripts_logo_core_py_logo_core_load_csv",
+      "agents_skills_design_scripts_logo_core_py_logo_core_rationale_101",
+      "agents_skills_design_scripts_logo_core_py_logo_core_rationale_107",
+      "agents_skills_design_scripts_logo_core_py_logo_core_rationale_132",
+      "agents_skills_design_scripts_logo_core_py_logo_core_rationale_147",
+      "agents_skills_design_scripts_logo_core_py_logo_core_rationale_169",
+      "agents_skills_design_scripts_logo_core_py_logo_core_rationale_38",
+      "agents_skills_design_scripts_logo_core_py_logo_core_rationale_51",
+      "agents_skills_design_scripts_logo_core_py_logo_core_rationale_56",
+      "agents_skills_design_scripts_logo_core_py_logo_core_rationale_75",
+      "agents_skills_design_scripts_logo_core_py_logo_core_search",
+      "agents_skills_design_scripts_logo_core_py_logo_core_search_all",
+      "agents_skills_design_scripts_logo_core_py_logo_core_search_csv"
+    ],
+    "21": [
+      "claude_skills_design_scripts_logo_core_py_logo_core",
+      "claude_skills_design_scripts_logo_core_py_logo_core_bm25",
+      "claude_skills_design_scripts_logo_core_py_logo_core_bm25_fit",
+      "claude_skills_design_scripts_logo_core_py_logo_core_bm25_init",
+      "claude_skills_design_scripts_logo_core_py_logo_core_bm25_score",
+      "claude_skills_design_scripts_logo_core_py_logo_core_bm25_tokenize",
+      "claude_skills_design_scripts_logo_core_py_logo_core_detect_domain",
+      "claude_skills_design_scripts_logo_core_py_logo_core_load_csv",
+      "claude_skills_design_scripts_logo_core_py_logo_core_rationale_101",
+      "claude_skills_design_scripts_logo_core_py_logo_core_rationale_107",
+      "claude_skills_design_scripts_logo_core_py_logo_core_rationale_132",
+      "claude_skills_design_scripts_logo_core_py_logo_core_rationale_147",
+      "claude_skills_design_scripts_logo_core_py_logo_core_rationale_169",
+      "claude_skills_design_scripts_logo_core_py_logo_core_rationale_38",
+      "claude_skills_design_scripts_logo_core_py_logo_core_rationale_51",
+      "claude_skills_design_scripts_logo_core_py_logo_core_rationale_56",
+      "claude_skills_design_scripts_logo_core_py_logo_core_rationale_75",
+      "claude_skills_design_scripts_logo_core_py_logo_core_search",
+      "claude_skills_design_scripts_logo_core_py_logo_core_search_all",
+      "claude_skills_design_scripts_logo_core_py_logo_core_search_csv"
+    ],
+    "22": [
+      "cli_assets_scripts_core_py_scripts_core",
+      "cli_assets_scripts_core_py_scripts_core_bm25",
+      "cli_assets_scripts_core_py_scripts_core_bm25_fit",
+      "cli_assets_scripts_core_py_scripts_core_bm25_init",
+      "cli_assets_scripts_core_py_scripts_core_bm25_score",
+      "cli_assets_scripts_core_py_scripts_core_bm25_tokenize",
+      "cli_assets_scripts_core_py_scripts_core_detect_domain",
+      "cli_assets_scripts_core_py_scripts_core_load_csv",
+      "cli_assets_scripts_core_py_scripts_core_search",
+      "cli_assets_scripts_core_py_scripts_core_search_csv",
+      "cli_assets_scripts_core_py_scripts_core_search_stack",
+      "scripts_core_rationale_103",
+      "scripts_core_rationale_108",
+      "scripts_core_rationale_127",
+      "scripts_core_rationale_153",
+      "scripts_core_rationale_159",
+      "scripts_core_rationale_184",
+      "scripts_core_rationale_207",
+      "scripts_core_rationale_229",
+      "scripts_core_rationale_90"
+    ],
+    "23": [
+      "scripts_core_rationale_105",
+      "scripts_core_rationale_118",
+      "scripts_core_rationale_123",
+      "scripts_core_rationale_142",
+      "scripts_core_rationale_168",
+      "scripts_core_rationale_174",
+      "scripts_core_rationale_199",
+      "scripts_core_rationale_222",
+      "scripts_core_rationale_244",
+      "src_ui_ux_pro_max_scripts_core_py_scripts_core",
+      "src_ui_ux_pro_max_scripts_core_py_scripts_core_bm25",
+      "src_ui_ux_pro_max_scripts_core_py_scripts_core_bm25_fit",
+      "src_ui_ux_pro_max_scripts_core_py_scripts_core_bm25_init",
+      "src_ui_ux_pro_max_scripts_core_py_scripts_core_bm25_score",
+      "src_ui_ux_pro_max_scripts_core_py_scripts_core_bm25_tokenize",
+      "src_ui_ux_pro_max_scripts_core_py_scripts_core_detect_domain",
+      "src_ui_ux_pro_max_scripts_core_py_scripts_core_load_csv",
+      "src_ui_ux_pro_max_scripts_core_py_scripts_core_search",
+      "src_ui_ux_pro_max_scripts_core_py_scripts_core_search_csv",
+      "src_ui_ux_pro_max_scripts_core_py_scripts_core_search_stack"
+    ],
+    "24": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_background_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_background_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_background",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_foreground",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_muted_foreground",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_primary",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_primary_hover",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_secondary",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_foreground_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_foreground_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_muted_foreground_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_muted_foreground_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primary_hover_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primary_hover_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primary_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primary_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_secondary_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_secondary_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_semantic_color"
+    ],
+    "25": [
+      "quickreference_accessibility",
+      "quickreference_animation",
+      "quickreference_charts_data",
+      "quickreference_chartsdata",
+      "quickreference_forms_feedback",
+      "quickreference_formsfeedback",
+      "quickreference_layout_responsive",
+      "quickreference_layoutresponsive",
+      "quickreference_navigation_patterns",
+      "quickreference_navigationpatterns",
+      "quickreference_performance",
+      "quickreference_rule_categories_by_priority",
+      "quickreference_style_selection",
+      "quickreference_styleselection",
+      "quickreference_touch_interaction",
+      "quickreference_touchinteraction",
+      "quickreference_typography_color",
+      "quickreference_typographycolor",
+      "website_screenshot"
+    ],
+    "26": [
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_generate_css_for_background",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_get_background_image",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_get_curated_images",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_get_overlay_css",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_get_pexels_search_url",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_load_backgrounds_config",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_load_brand_colors",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_main",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_117",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_130",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_190",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_195",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_201",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_21",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_239",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_40",
+      "agents_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_resolve_token_reference"
+    ],
+    "27": [
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_generate_css_for_background",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_get_background_image",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_get_curated_images",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_get_overlay_css",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_get_pexels_search_url",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_load_backgrounds_config",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_load_brand_colors",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_main",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_117",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_130",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_190",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_195",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_201",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_21",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_239",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_rationale_40",
+      "claude_skills_design_system_scripts_fetch_background_py_scripts_fetch_background_resolve_token_reference"
+    ],
+    "28": [
+      "tailwindresponsive_breakpoint_system",
+      "tailwindresponsive_common_responsive_layouts",
+      "tailwindresponsive_common_responsive_utilities",
+      "tailwindresponsive_mobilefirst_approach",
+      "tailwindresponsive_responsive_patterns",
+      "tailwindutilities_arbitrary_values",
+      "tailwindutilities_aspect_ratio",
+      "tailwindutilities_borders",
+      "tailwindutilities_colors",
+      "tailwindutilities_cursor",
+      "tailwindutilities_layout_utilities",
+      "tailwindutilities_opacity",
+      "tailwindutilities_overflow",
+      "tailwindutilities_shadows",
+      "tailwindutilities_spacing_utilities",
+      "tailwindutilities_typography",
+      "tailwindutilities_user_select",
+      "tailwindutilities_width_height"
+    ],
+    "29": [
+      "agents_skills_ui_styling_scripts_shadcn_add_py_path",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_main",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_rationale_132",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_rationale_177",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_rationale_18",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_rationale_21",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_rationale_33",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_rationale_42",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_rationale_70",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_shadcninstaller",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_shadcninstaller_add_all_components",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_shadcninstaller_add_components",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_shadcninstaller_check_shadcn_config",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_shadcninstaller_get_installed_components",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_shadcninstaller_init",
+      "agents_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_shadcninstaller_list_installed"
+    ],
+    "30": [
+      "claude_skills_ui_styling_scripts_shadcn_add_py_path",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_main",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_rationale_132",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_rationale_177",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_rationale_18",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_rationale_21",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_rationale_33",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_rationale_42",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_rationale_70",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_shadcninstaller",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_shadcninstaller_add_all_components",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_shadcninstaller_add_components",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_shadcninstaller_check_shadcn_config",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_shadcninstaller_get_installed_components",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_shadcninstaller_init",
+      "claude_skills_ui_styling_scripts_shadcn_add_py_scripts_shadcn_add_shadcninstaller_list_installed"
+    ],
+    "31": [
+      "shadcn_theming_button",
+      "shadcn_theming_buttonvariants",
+      "shadcn_theming_card",
+      "shadcn_theming_cardcomponent",
+      "shadcn_theming_globals_css",
+      "shadcn_theming_moon",
+      "shadcn_theming_nextthemesprovider",
+      "shadcn_theming_sun",
+      "shadcn_theming_tailwindconfig",
+      "shadcn_theming_themeprovider",
+      "shadcn_theming_toggletheme",
+      "tailwind_customization_completeconfig",
+      "tailwind_customization_customutilities",
+      "tailwind_customization_customvariants",
+      "tailwind_customization_plugins",
+      "tailwind_customization_tailwindconfig",
+      "tailwind_customization_theme_directive"
+    ],
+    "32": [
+      "agents_skills_design_scripts_icon_generate_py_icon_generate",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_apply_color",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_apply_viewbox_size",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_extract_svgs",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_generate_batch",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_generate_icon",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_generate_sizes",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_load_env",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_main",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_rationale_129",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_rationale_167",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_rationale_178",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_rationale_191",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_rationale_28",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_rationale_288",
+      "agents_skills_design_scripts_icon_generate_py_icon_generate_rationale_372"
+    ],
+    "33": [
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_chart_slide",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_cta_slide",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_deck",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_metrics_slide",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_problem_slide",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_solution_slide",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_testimonial_slide",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_title_slide",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_main",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_rationale_412",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_rationale_431",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_rationale_462",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_rationale_507",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_rationale_538",
+      "agents_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_rationale_621"
+    ],
+    "34": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_2xl_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_2xl_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_3xl_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_3xl_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_4xl_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_4xl_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_base_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_base_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_2xl",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_3xl",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_4xl",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_base",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_xs",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive_fontsize",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_xs_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_xs_value"
+    ],
+    "35": [
+      "claude_skills_design_scripts_icon_generate_py_icon_generate",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_apply_color",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_apply_viewbox_size",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_extract_svgs",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_generate_batch",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_generate_icon",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_generate_sizes",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_load_env",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_main",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_rationale_129",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_rationale_167",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_rationale_178",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_rationale_191",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_rationale_28",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_rationale_288",
+      "claude_skills_design_scripts_icon_generate_py_icon_generate_rationale_372"
+    ],
+    "36": [
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_chart_slide",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_cta_slide",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_deck",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_metrics_slide",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_problem_slide",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_solution_slide",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_testimonial_slide",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_generate_title_slide",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_main",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_rationale_412",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_rationale_431",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_rationale_462",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_rationale_507",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_rationale_538",
+      "claude_skills_design_system_scripts_generate_slide_py_scripts_generate_slide_rationale_621"
+    ],
+    "37": [
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_2xl_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_2xl_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_3xl_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_3xl_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_4xl_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_4xl_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_base_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_base_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_2xl",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_3xl",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_4xl",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_base",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_xs",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive_fontsize",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_xs_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_xs_value"
+    ],
+    "38": [
+      "canvas_design_system",
+      "canvas_fonts_arsenalsc",
+      "canvas_fonts_bigshoulders",
+      "canvas_fonts_boldonse",
+      "radix_ui",
+      "shadcn_add_py",
+      "shadcn_ui",
+      "tailwind_config_gen_py",
+      "tailwind_css",
+      "ui_styling_canvas_design",
+      "ui_styling_shadcn_add_py",
+      "ui_styling_shadcn_ui",
+      "ui_styling_skill",
+      "ui_styling_tailwind_config_gen_py",
+      "ui_styling_tailwind_css"
+    ],
+    "39": [
+      "chart_charts_data",
+      "skill_ui_ux_pro_max",
+      "style_style_selection",
+      "typography_typography_color",
+      "ui_ux_pro_max_interaction_app",
+      "ui_ux_pro_max_layout_spacing",
+      "ui_ux_pro_max_light_dark_mode_contrast",
+      "ui_ux_pro_max_pre_delivery_checklist",
+      "ux_accessibility",
+      "ux_animation",
+      "ux_forms_feedback",
+      "ux_layout_responsive",
+      "ux_navigation_patterns",
+      "ux_performance",
+      "ux_touch_interaction"
+    ],
+    "40": [
+      "cli_tsconfig",
+      "cli_tsconfig_compileroptions",
+      "cli_tsconfig_compileroptions_allowsyntheticdefaultimports",
+      "cli_tsconfig_compileroptions_declaration",
+      "cli_tsconfig_compileroptions_esmoduleinterop",
+      "cli_tsconfig_compileroptions_module",
+      "cli_tsconfig_compileroptions_moduleresolution",
+      "cli_tsconfig_compileroptions_outdir",
+      "cli_tsconfig_compileroptions_resolvejsonmodule",
+      "cli_tsconfig_compileroptions_rootdir",
+      "cli_tsconfig_compileroptions_skiplibcheck",
+      "cli_tsconfig_compileroptions_strict",
+      "cli_tsconfig_compileroptions_target",
+      "cli_tsconfig_exclude",
+      "cli_tsconfig_include"
+    ],
+    "41": [
+      "agents_skills_design_scripts_cip_generate_py_cip_generate",
+      "agents_skills_design_scripts_cip_generate_py_cip_generate_build_cip_prompt",
+      "agents_skills_design_scripts_cip_generate_py_cip_generate_check_logo_required",
+      "agents_skills_design_scripts_cip_generate_py_cip_generate_generate_cip_set",
+      "agents_skills_design_scripts_cip_generate_py_cip_generate_generate_with_nano_banana",
+      "agents_skills_design_scripts_cip_generate_py_cip_generate_load_env",
+      "agents_skills_design_scripts_cip_generate_py_cip_generate_load_logo_image",
+      "agents_skills_design_scripts_cip_generate_py_cip_generate_main",
+      "agents_skills_design_scripts_cip_generate_py_cip_generate_rationale_187",
+      "agents_skills_design_scripts_cip_generate_py_cip_generate_rationale_287",
+      "agents_skills_design_scripts_cip_generate_py_cip_generate_rationale_342",
+      "agents_skills_design_scripts_cip_generate_py_cip_generate_rationale_37",
+      "agents_skills_design_scripts_cip_generate_py_cip_generate_rationale_70",
+      "agents_skills_design_scripts_cip_generate_py_cip_generate_rationale_90"
+    ],
+    "42": [
+      "claude_skills_design_scripts_cip_generate_py_cip_generate",
+      "claude_skills_design_scripts_cip_generate_py_cip_generate_build_cip_prompt",
+      "claude_skills_design_scripts_cip_generate_py_cip_generate_check_logo_required",
+      "claude_skills_design_scripts_cip_generate_py_cip_generate_generate_cip_set",
+      "claude_skills_design_scripts_cip_generate_py_cip_generate_generate_with_nano_banana",
+      "claude_skills_design_scripts_cip_generate_py_cip_generate_load_env",
+      "claude_skills_design_scripts_cip_generate_py_cip_generate_load_logo_image",
+      "claude_skills_design_scripts_cip_generate_py_cip_generate_main",
+      "claude_skills_design_scripts_cip_generate_py_cip_generate_rationale_187",
+      "claude_skills_design_scripts_cip_generate_py_cip_generate_rationale_287",
+      "claude_skills_design_scripts_cip_generate_py_cip_generate_rationale_342",
+      "claude_skills_design_scripts_cip_generate_py_cip_generate_rationale_37",
+      "claude_skills_design_scripts_cip_generate_py_cip_generate_rationale_70",
+      "claude_skills_design_scripts_cip_generate_py_cip_generate_rationale_90"
+    ],
+    "43": [
+      "cli_assets_data_sync_all_py_data_sync_all",
+      "cli_assets_data_sync_all_py_data_sync_all_blend",
+      "cli_assets_data_sync_all_py_data_sync_all_derive_row",
+      "cli_assets_data_sync_all_py_data_sync_all_derive_ui_reasoning",
+      "cli_assets_data_sync_all_py_data_sync_all_h2r",
+      "cli_assets_data_sync_all_py_data_sync_all_is_dark",
+      "cli_assets_data_sync_all_py_data_sync_all_lum",
+      "cli_assets_data_sync_all_py_data_sync_all_on_color",
+      "cli_assets_data_sync_all_py_data_sync_all_r2h",
+      "cli_assets_data_sync_all_py_data_sync_all_rationale_251",
+      "cli_assets_data_sync_all_py_data_sync_all_rationale_43",
+      "cli_assets_data_sync_all_py_data_sync_all_rebuild_colors",
+      "cli_assets_data_sync_all_py_data_sync_all_rebuild_ui_reasoning",
+      "cli_assets_data_sync_all_py_data_sync_all_shift"
+    ],
+    "44": [
+      "shadcnaccessibility_button",
+      "shadcnaccessibility_command",
+      "shadcnaccessibility_dialog",
+      "shadcnaccessibility_dropdownmenu",
+      "shadcnaccessibility_radixuiprimitives",
+      "shadcncomponents_button",
+      "shadcncomponents_calendar",
+      "shadcncomponents_card",
+      "shadcncomponents_command",
+      "shadcncomponents_dialog",
+      "shadcncomponents_form",
+      "shadcncomponents_input",
+      "shadcncomponents_select",
+      "shadcncomponents_toast"
+    ],
+    "45": [
+      "src_ui_ux_pro_max_data_sync_all_py_data_sync_all",
+      "src_ui_ux_pro_max_data_sync_all_py_data_sync_all_blend",
+      "src_ui_ux_pro_max_data_sync_all_py_data_sync_all_derive_row",
+      "src_ui_ux_pro_max_data_sync_all_py_data_sync_all_derive_ui_reasoning",
+      "src_ui_ux_pro_max_data_sync_all_py_data_sync_all_h2r",
+      "src_ui_ux_pro_max_data_sync_all_py_data_sync_all_is_dark",
+      "src_ui_ux_pro_max_data_sync_all_py_data_sync_all_lum",
+      "src_ui_ux_pro_max_data_sync_all_py_data_sync_all_on_color",
+      "src_ui_ux_pro_max_data_sync_all_py_data_sync_all_r2h",
+      "src_ui_ux_pro_max_data_sync_all_py_data_sync_all_rationale_251",
+      "src_ui_ux_pro_max_data_sync_all_py_data_sync_all_rationale_43",
+      "src_ui_ux_pro_max_data_sync_all_py_data_sync_all_rebuild_colors",
+      "src_ui_ux_pro_max_data_sync_all_py_data_sync_all_rebuild_ui_reasoning",
+      "src_ui_ux_pro_max_data_sync_all_py_data_sync_all_shift"
+    ],
+    "46": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_component",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_component_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_component_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_dark",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_dark_semantic",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_schema",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_section_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_section_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_semantic",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_semantic_spacing",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_component",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_spacing_section"
+    ],
+    "47": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_bg_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_bg_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_button_bg",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_card_bg",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_card_padding",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_card_shadow",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_component_card",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_input_bg",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_padding_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_padding_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_shadow_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_shadow_value"
+    ],
+    "48": [
+      "slides",
+      "slides_copywriting_formulas_aida",
+      "slides_copywriting_formulas_fab",
+      "slides_copywriting_formulas_pas",
+      "slides_create",
+      "slides_html_template",
+      "slides_layout_patterns",
+      "slides_layout_patterns_feature_grid",
+      "slides_layout_patterns_title_slide",
+      "slides_strategies",
+      "slides_strategies_sales_pitch",
+      "slides_strategies_yc_seed_deck"
+    ],
+    "49": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_duration_fast",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_duration_normal",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_duration_slow",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fast_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fast_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_normal_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_normal_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive_duration",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_slow_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_slow_value"
+    ],
+    "50": [
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_duration_fast",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_duration_normal",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_duration_slow",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fast_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fast_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_normal_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_normal_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive_duration",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_slow_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_slow_value"
+    ],
+    "51": [
+      "agents_skills_design_scripts_logo_generate_py_logo_generate",
+      "agents_skills_design_scripts_logo_generate_py_logo_generate_enhance_prompt",
+      "agents_skills_design_scripts_logo_generate_py_logo_generate_generate_batch",
+      "agents_skills_design_scripts_logo_generate_py_logo_generate_generate_logo",
+      "agents_skills_design_scripts_logo_generate_py_logo_generate_load_env",
+      "agents_skills_design_scripts_logo_generate_py_logo_generate_main",
+      "agents_skills_design_scripts_logo_generate_py_logo_generate_rationale_120",
+      "agents_skills_design_scripts_logo_generate_py_logo_generate_rationale_138",
+      "agents_skills_design_scripts_logo_generate_py_logo_generate_rationale_231",
+      "agents_skills_design_scripts_logo_generate_py_logo_generate_rationale_30"
+    ],
+    "52": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_button_fg",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_button_font_size",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_button_hover_bg",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_component_button",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fg_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fg_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_font_size_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_font_size_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_hover_bg_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_hover_bg_value"
+    ],
+    "53": [
+      "banner_design_skill",
+      "banner_sizes_and_styles_reference",
+      "brand_approval_checklist",
+      "brand_asset_organization",
+      "brand_guideline_template",
+      "brand_guidelines_v1_0",
+      "brand_skill",
+      "cip_deliverable_guide",
+      "ckm_design_skill",
+      "design_skill"
+    ],
+    "54": [
+      "claude_skills_design_scripts_logo_generate_py_logo_generate",
+      "claude_skills_design_scripts_logo_generate_py_logo_generate_enhance_prompt",
+      "claude_skills_design_scripts_logo_generate_py_logo_generate_generate_batch",
+      "claude_skills_design_scripts_logo_generate_py_logo_generate_generate_logo",
+      "claude_skills_design_scripts_logo_generate_py_logo_generate_load_env",
+      "claude_skills_design_scripts_logo_generate_py_logo_generate_main",
+      "claude_skills_design_scripts_logo_generate_py_logo_generate_rationale_120",
+      "claude_skills_design_scripts_logo_generate_py_logo_generate_rationale_138",
+      "claude_skills_design_scripts_logo_generate_py_logo_generate_rationale_231",
+      "claude_skills_design_scripts_logo_generate_py_logo_generate_rationale_30"
+    ],
+    "55": [
+      "claude_skills_ui_ux_pro_max",
+      "cli_assets_directory",
+      "skillcontent_description",
+      "skillcontent_heroicons",
+      "skillcontent_phosphor_icons",
+      "skillcontent_quick_reference",
+      "skillcontent_search_py",
+      "skillcontent_search_script",
+      "skillcontent_title",
+      "src_ui_ux_pro_max"
+    ],
+    "56": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_15",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_204",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_237",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_24",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_plugins",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_generate_javascript_config",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_init_javascript",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_validate_config_no_content"
+    ],
+    "57": [
+      "cipdesign_cip_deliverable_guide_md",
+      "cipdesign_cip_prompt_engineering_md",
+      "cipdesign_cip_style_guide_md",
+      "cipdesign_scripts_cip_core_py",
+      "cipdesign_scripts_cip_generate_py",
+      "cipdesign_scripts_cip_renderhtml_py",
+      "cipdesign_scripts_cip_search_py",
+      "designrouting_design_routing_md",
+      "icondesign_scripts_icon_generate_py"
+    ],
+    "58": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_15",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_289",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_40",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_45",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_plugins",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_custom_output_path",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_default_output_path_javascript",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_full_configuration_typescript"
+    ],
+    "59": [
+      "agents_skills_design_scripts_cip_render_html_py_cip_render_html",
+      "agents_skills_design_scripts_cip_render_html_py_cip_render_html_generate_html",
+      "agents_skills_design_scripts_cip_render_html_py_cip_render_html_get_deliverable_info",
+      "agents_skills_design_scripts_cip_render_html_py_cip_render_html_get_image_base64",
+      "agents_skills_design_scripts_cip_render_html_py_cip_render_html_main",
+      "agents_skills_design_scripts_cip_render_html_py_cip_render_html_rationale_100",
+      "agents_skills_design_scripts_cip_render_html_py_cip_render_html_rationale_110",
+      "agents_skills_design_scripts_cip_render_html_py_cip_render_html_rationale_125"
+    ],
+    "60": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_button_padding_x",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_component_input",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_focus_ring_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_focus_ring_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_input_focus_ring",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_input_padding_x",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_padding_x_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_padding_x_value"
+    ],
+    "61": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_default_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_default_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_full_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_full_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive_radius",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_default",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_full",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_shadow_default"
+    ],
+    "62": [
+      "bricolagegrotesqueofl_bricolagegrotesque",
+      "crimsonproofl_crimsonpro",
+      "dmmonoofl_dmmono",
+      "ericaoneofl_ericaone",
+      "geistmonoofl_geistmono",
+      "gloockofl_gloock",
+      "ibmplexmonoofl_ibmplexmono",
+      "instrumentsansofl_instrumentsans"
+    ],
+    "63": [
+      "cip_design_reference",
+      "cip_prompt_engineering",
+      "cip_style_guide",
+      "design_routing",
+      "icon_design_reference",
+      "logo_color_psychology",
+      "logo_design_reference",
+      "logo_prompt_engineering"
+    ],
+    "64": [
+      "claude_skills_design_scripts_cip_render_html_py_cip_render_html",
+      "claude_skills_design_scripts_cip_render_html_py_cip_render_html_generate_html",
+      "claude_skills_design_scripts_cip_render_html_py_cip_render_html_get_deliverable_info",
+      "claude_skills_design_scripts_cip_render_html_py_cip_render_html_get_image_base64",
+      "claude_skills_design_scripts_cip_render_html_py_cip_render_html_main",
+      "claude_skills_design_scripts_cip_render_html_py_cip_render_html_rationale_100",
+      "claude_skills_design_scripts_cip_render_html_py_cip_render_html_rationale_110",
+      "claude_skills_design_scripts_cip_render_html_py_cip_render_html_rationale_125"
+    ],
+    "65": [
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_default_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_default_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_full_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_full_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive_radius",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_default",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_full",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_shadow_default"
+    ],
+    "66": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_1",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_124",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_18",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_182",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_subprocess_error",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_with_overwrite"
+    ],
+    "67": [
+      "pixelifysansofl",
+      "poiretoneofl",
+      "redhatmonoofl",
+      "silkscreenofl",
+      "smoochsansofl",
+      "tekturofl",
+      "worksansofl",
+      "youngserifofl"
+    ],
+    "68": [
+      "tailwindintegration_animationtokens",
+      "tailwindintegration_buttonexample",
+      "tailwindintegration_cssvariablessetup",
+      "tailwindintegration_darkmodetoggle",
+      "tailwindintegration_shadcnui",
+      "tailwindintegration_spacingintegration",
+      "tailwindintegration_tailwindconfig"
+    ],
+    "69": [
+      "tailwindresponsive_best_practices",
+      "tailwindresponsive_container_queries",
+      "tailwindresponsive_custom_breakpoints",
+      "tailwindresponsive_maxwidth_queries",
+      "tailwindresponsive_range_queries",
+      "tailwindresponsive_responsive_state_variants",
+      "tailwindresponsive_testing_checklist"
+    ],
+    "70": [
+      "agents_skills_design_scripts_cip_search_py_cip_search",
+      "agents_skills_design_scripts_cip_search_py_cip_search_format_brief",
+      "agents_skills_design_scripts_cip_search_py_cip_search_format_results",
+      "agents_skills_design_scripts_cip_search_py_cip_search_main",
+      "agents_skills_design_scripts_cip_search_py_cip_search_rationale_18",
+      "agents_skills_design_scripts_cip_search_py_cip_search_rationale_33"
+    ],
+    "71": [
+      "agents_skills_design_system_scripts_search_slides_py_scripts_search_slides",
+      "agents_skills_design_system_scripts_search_slides_py_scripts_search_slides_format_context",
+      "agents_skills_design_system_scripts_search_slides_py_scripts_search_slides_format_result",
+      "agents_skills_design_system_scripts_search_slides_py_scripts_search_slides_main",
+      "agents_skills_design_system_scripts_search_slides_py_scripts_search_slides_rationale_18",
+      "agents_skills_design_system_scripts_search_slides_py_scripts_search_slides_rationale_65"
+    ],
+    "72": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_sm",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive_shadow",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_sm",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_shadow_sm",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_sm_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_sm_value"
+    ],
+    "73": [
+      "bannerdesign_ckm_banner_design",
+      "bannerdesign_references_banner_sizes_and_styles_md",
+      "brand_ckm_brand",
+      "brand_references_approval_checklist_md",
+      "brand_references_asset_organization_md",
+      "brand_references_brand_guideline_template_md"
+    ],
+    "74": [
+      "claude_skills_design_scripts_cip_search_py_cip_search",
+      "claude_skills_design_scripts_cip_search_py_cip_search_format_brief",
+      "claude_skills_design_scripts_cip_search_py_cip_search_format_results",
+      "claude_skills_design_scripts_cip_search_py_cip_search_main",
+      "claude_skills_design_scripts_cip_search_py_cip_search_rationale_18",
+      "claude_skills_design_scripts_cip_search_py_cip_search_rationale_33"
+    ],
+    "75": [
+      "claude_skills_design_system_scripts_search_slides_py_scripts_search_slides",
+      "claude_skills_design_system_scripts_search_slides_py_scripts_search_slides_format_context",
+      "claude_skills_design_system_scripts_search_slides_py_scripts_search_slides_format_result",
+      "claude_skills_design_system_scripts_search_slides_py_scripts_search_slides_main",
+      "claude_skills_design_system_scripts_search_slides_py_scripts_search_slides_rationale_18",
+      "claude_skills_design_system_scripts_search_slides_py_scripts_search_slides_rationale_65"
+    ],
+    "76": [
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_sm",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive_shadow",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_sm",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_shadow_sm",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_sm_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_sm_value"
+    ],
+    "77": [
+      "copywritingformulas_document",
+      "create_reference",
+      "htmltemplate_document",
+      "layoutpatterns_document",
+      "slides_skill",
+      "slidestrategies_document"
+    ],
+    "78": [
+      "xiaomaomiapp_bottomnav",
+      "xiaomaomiapp_catavatar",
+      "xiaomaomiapp_feedsection",
+      "xiaomaomiapp_herocard",
+      "xiaomaomiapp_logo",
+      "xiaomaomiapp_quickactions"
+    ],
+    "79": [
+      "agents_skills_design_scripts_logo_search_py_logo_search",
+      "agents_skills_design_scripts_logo_search_py_logo_search_format_output",
+      "agents_skills_design_scripts_logo_search_py_logo_search_generate_design_brief",
+      "agents_skills_design_scripts_logo_search_py_logo_search_rationale_16",
+      "agents_skills_design_scripts_logo_search_py_logo_search_rationale_38"
+    ],
+    "80": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_border_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_border_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_card_border",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_border",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_input_border"
+    ],
+    "81": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_button_radius",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_card_radius",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_input_radius",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_value"
+    ],
+    "82": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_lg",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_lg_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_lg_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_lg",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_shadow_lg"
+    ],
+    "83": [
+      "brandvoiceframework_voicedevelopmentprocess",
+      "brandvoiceframework_voiceguidetemplate",
+      "brandvoiceframework_voicetesting",
+      "brandvoiceframework_voicevstone",
+      "consistencychecklist_voiceconsistency"
+    ],
+    "84": [
+      "claude_skills_design_scripts_logo_search_py_logo_search",
+      "claude_skills_design_scripts_logo_search_py_logo_search_format_output",
+      "claude_skills_design_scripts_logo_search_py_logo_search_generate_design_brief",
+      "claude_skills_design_scripts_logo_search_py_logo_search_rationale_16",
+      "claude_skills_design_scripts_logo_search_py_logo_search_rationale_38"
+    ],
+    "85": [
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_lg",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_lg_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_lg_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_lg",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_shadow_lg"
+    ],
+    "86": [
+      "logodesign_logo_color_psychology_md",
+      "logodesign_logo_prompt_engineering_md",
+      "logodesign_logo_style_guide_md",
+      "logodesign_scripts_logo_generate_py",
+      "logodesign_scripts_logo_search_py"
+    ],
+    "87": [
+      "agents_md_ui_ux_pro_max",
+      "claude_md_ui_ux_pro_max",
+      "readme_md_domain_specific_search",
+      "readme_md_ui_ux_pro_max"
+    ],
+    "88": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_button_padding_y",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_input_padding_y",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_padding_y_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_padding_y_value"
+    ],
+    "89": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_xl",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_xl",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_xl_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_xl_value"
+    ],
+    "90": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_md_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_md_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_md",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_shadow_md"
+    ],
+    "91": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_none_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_none_value",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_none",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_shadow_none"
+    ],
+    "92": [
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_fontsize_xl",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_xl",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_xl_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_xl_value"
+    ],
+    "93": [
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_md_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_md_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_md",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_shadow_md"
+    ],
+    "94": [
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_none_type",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_none_value",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_radius_none",
+      "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_shadow_none"
+    ],
+    "95": [
+      "componentspecs_component_specs",
+      "designsystem_ckm_design_system",
+      "socialphotosdesignguide_social_photos_design_guide",
+      "statesandvariants_states_and_variants"
+    ],
+    "96": [
+      "componentspecs_componentspecs",
+      "designsystem_ckmdesignsystem",
+      "socialphotosdesignguide_socialphotosdesignguide",
+      "statesandvariants_statesandvariants"
+    ],
+    "97": [
+      "messagingframework_corestatements",
+      "messagingframework_messagearchitecture",
+      "messagingframework_messagebyaudience",
+      "messagingframework_messagetesting"
+    ],
+    "98": [
+      "requirements_txt",
+      "tailwindresponsive_document",
+      "tailwindutilities_document",
+      "tests_requirements_txt"
+    ],
+    "99": [
+      "agents_skills_design_system_scripts_slide_token_validator_py_scripts_slide_token_validator",
+      "agents_skills_design_system_scripts_slide_token_validator_py_scripts_slide_token_validator_main",
+      "agents_skills_design_system_scripts_slide_token_validator_py_scripts_slide_token_validator_rationale_21"
+    ],
+    "100": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_destructive",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_destructive_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_destructive_value"
+    ],
+    "101": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_destructive_foreground",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_destructive_foreground_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_destructive_foreground_value"
+    ],
+    "102": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_muted",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_muted_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_muted_value"
+    ],
+    "103": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_primary_foreground",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primary_foreground_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primary_foreground_value"
+    ],
+    "104": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_ring",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_ring_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_ring_value"
+    ],
+    "105": [
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_secondary_foreground",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_secondary_foreground_type",
+      "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_secondary_foreground_value"
+    ],
+    "106": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_289",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_full_configuration_javascript",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_full_configuration_typescript"
+    ],
+    "107": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_62",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_default_content_paths_react",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_default_content_paths_vue"
+    ],
+    "108": [
+      "claude_skills_design_system_scripts_slide_token_validator_py_scripts_slide_token_validator",
+      "claude_skills_design_system_scripts_slide_token_validator_py_scripts_slide_token_validator_main",
+      "claude_skills_design_system_scripts_slide_token_validator_py_scripts_slide_token_validator_rationale_21"
+    ],
+    "109": [
+      "cli_assets_scripts_search_py_scripts_search",
+      "cli_assets_scripts_search_py_scripts_search_format_output",
+      "cli_assets_scripts_search_py_scripts_search_rationale_31"
+    ],
+    "110": [
+      "src_ui_ux_pro_max_scripts_search_py_scripts_search",
+      "src_ui_ux_pro_max_scripts_search_py_scripts_search_format_output",
+      "src_ui_ux_pro_max_scripts_search_py_scripts_search_rationale_31"
+    ],
+    "111": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_1"
+    ],
+    "112": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_110",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_color_palette"
+    ],
+    "113": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_123",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_fonts"
+    ],
+    "114": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_136",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_spacing"
+    ],
+    "115": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_149",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_breakpoints"
+    ],
+    "116": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_171",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_plugins_no_duplicates"
+    ],
+    "117": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_18",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_init_default_typescript"
+    ],
+    "118": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_180",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_recommend_plugins"
+    ],
+    "119": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_188",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_recommend_plugins_nextjs"
+    ],
+    "120": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_195",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_generate_typescript_config"
+    ],
+    "121": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_212",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_generate_config_with_colors"
+    ],
+    "122": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_221",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_generate_config_with_plugins"
+    ],
+    "123": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_230",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_validate_config_valid"
+    ],
+    "124": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_247",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_validate_config_empty_theme"
+    ],
+    "125": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_257",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_write_config"
+    ],
+    "126": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_268",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_write_config_creates_content"
+    ],
+    "127": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_280",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_write_config_invalid_path"
+    ],
+    "128": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_29",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_init_framework"
+    ],
+    "129": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_35",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_default_output_path_typescript"
+    ],
+    "130": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_40",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_default_output_path_javascript"
+    ],
+    "131": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_45",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_custom_output_path"
+    ],
+    "132": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_51",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_base_config_structure"
+    ],
+    "133": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_70",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_default_content_paths_nextjs"
+    ],
+    "134": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_86",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_colors"
+    ],
+    "135": [
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_99",
+      "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_colors_multiple_times"
+    ],
+    "136": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_104",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_no_config"
+    ],
+    "137": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_112",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_already_installed"
+    ],
+    "138": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_147",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_dry_run"
+    ],
+    "139": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_158",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_success"
+    ],
+    "140": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_195",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_npx_not_found"
+    ],
+    "141": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_205",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_no_config"
+    ],
+    "142": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_213",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_dry_run"
+    ],
+    "143": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_22",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_temp_project"
+    ],
+    "144": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_223",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_all_components_success"
+    ],
+    "145": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_240",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_list_installed_no_config"
+    ],
+    "146": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_248",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_list_installed_empty"
+    ],
+    "147": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_256",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_list_installed_with_components"
+    ],
+    "148": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_45",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_init_default_project_root"
+    ],
+    "149": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_51",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_init_custom_project_root"
+    ],
+    "150": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_56",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_init_dry_run"
+    ],
+    "151": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_61",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_check_shadcn_config_exists"
+    ],
+    "152": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_66",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_check_shadcn_config_not_exists"
+    ],
+    "153": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_71",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_empty"
+    ],
+    "154": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_77",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_with_files"
+    ],
+    "155": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_90",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_get_installed_components_no_config"
+    ],
+    "156": [
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_rationale_96",
+      "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller_test_add_components_no_components"
+    ],
+    "157": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_1"
+    ],
+    "158": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_110",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_color_palette"
+    ],
+    "159": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_123",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_fonts"
+    ],
+    "160": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_136",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_spacing"
+    ],
+    "161": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_149",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_breakpoints"
+    ],
+    "162": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_171",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_plugins_no_duplicates"
+    ],
+    "163": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_18",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_init_default_typescript"
+    ],
+    "164": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_180",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_recommend_plugins"
+    ],
+    "165": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_188",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_recommend_plugins_nextjs"
+    ],
+    "166": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_195",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_generate_typescript_config"
+    ],
+    "167": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_204",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_generate_javascript_config"
+    ],
+    "168": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_212",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_generate_config_with_colors"
+    ],
+    "169": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_221",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_generate_config_with_plugins"
+    ],
+    "170": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_230",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_validate_config_valid"
+    ],
+    "171": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_237",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_validate_config_no_content"
+    ],
+    "172": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_24",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_init_javascript"
+    ],
+    "173": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_247",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_validate_config_empty_theme"
+    ],
+    "174": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_257",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_write_config"
+    ],
+    "175": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_268",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_write_config_creates_content"
+    ],
+    "176": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_280",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_write_config_invalid_path"
+    ],
+    "177": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_29",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_init_framework"
+    ],
+    "178": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_318",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_full_configuration_javascript"
+    ],
+    "179": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_35",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_default_output_path_typescript"
+    ],
+    "180": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_51",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_base_config_structure"
+    ],
+    "181": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_62",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_default_content_paths_react"
+    ],
+    "182": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_70",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_default_content_paths_nextjs"
+    ],
+    "183": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_79",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_default_content_paths_vue"
+    ],
+    "184": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_86",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_colors"
+    ],
+    "185": [
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_rationale_99",
+      "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator_test_add_colors_multiple_times"
+    ],
+    "186": [
+      "messagingframework_frameworkstructure",
+      "voiceframework_voicevstone"
+    ],
+    "187": [
+      "scripts_requirements",
+      "scripts_tests_requirements"
+    ],
+    "188": [
+      "arsenalsc_ofl"
+    ],
+    "189": [
+      "bigshoulders_ofl"
+    ],
+    "190": [
+      "boldonse_ofl"
+    ],
+    "191": [
+      "brandvoiceframework_voicedimensions"
+    ],
+    "192": [
+      "canvasdesignsystem_analogmeditation"
+    ],
+    "193": [
+      "canvasdesignsystem_chromaticlanguage"
+    ],
+    "194": [
+      "canvasdesignsystem_concretepoetry"
+    ],
+    "195": [
+      "canvasdesignsystem_designphilosophy"
+    ],
+    "196": [
+      "canvasdesignsystem_geometricsilence"
+    ],
+    "197": [
+      "canvasdesignsystem_organicsystems"
+    ],
+    "198": [
+      "canvasdesignsystem_visualexpression"
+    ],
+    "199": [
+      "cli_readme_uipro_cli"
+    ],
+    "200": [
+      "consistencychecklist_auditfrequency"
+    ],
+    "201": [
+      "consistencychecklist_channelaudit"
+    ],
+    "202": [
+      "consistencychecklist_commonissues"
+    ],
+    "203": [
+      "data_scripts_templates_doc"
+    ],
+    "204": [
+      "github_workflows_claude_code"
+    ],
+    "205": [
+      "github_workflows_claude_code_review"
+    ],
+    "206": [
+      "github_workflows_python_package_conda"
+    ],
+    "207": [
+      "italianaofl_copyright"
+    ],
+    "208": [
+      "italianaofl_italiana"
+    ],
+    "209": [
+      "jetbrainsmonoofl_copyright"
+    ],
+    "210": [
+      "jetbrainsmonoofl_jetbrainsmono"
+    ],
+    "211": [
+      "juraofl_copyright"
+    ],
+    "212": [
+      "juraofl_jura"
+    ],
+    "213": [
+      "librebaskervilleofl_copyright"
+    ],
+    "214": [
+      "librebaskervilleofl_librebaskerville"
+    ],
+    "215": [
+      "logo_style_guide_abstract_mark"
+    ],
+    "216": [
+      "logo_style_guide_combination_mark"
+    ],
+    "217": [
+      "logo_style_guide_emblem"
+    ],
+    "218": [
+      "logo_style_guide_lettermark"
+    ],
+    "219": [
+      "logo_style_guide_mascot"
+    ],
+    "220": [
+      "logo_style_guide_pictorial_mark"
+    ],
+    "221": [
+      "logo_style_guide_wordmark"
+    ],
+    "222": [
+      "logodesign_scripts_logo_core_py"
+    ],
+    "223": [
+      "logousagerules_clearspace"
+    ],
+    "224": [
+      "logousagerules_cobranding"
+    ],
+    "225": [
+      "logousagerules_filesformats"
+    ],
+    "226": [
+      "logousagerules_incorrectusage"
+    ],
+    "227": [
+      "logousagerules_logoapprovalprocess"
+    ],
+    "228": [
+      "logousagerules_minimumsize"
+    ],
+    "229": [
+      "loraofl_copyright"
+    ],
+    "230": [
+      "loraofl_lora"
+    ],
+    "231": [
+      "nationalparkofl_copyright"
+    ],
+    "232": [
+      "nationalparkofl_nationalpark"
+    ],
+    "233": [
+      "nothingyoucouldcofl_copyright"
+    ],
+    "234": [
+      "nothingyoucouldcofl_nothingyoucoulddo"
+    ],
+    "235": [
+      "outfitofl_copyright"
+    ],
+    "236": [
+      "outfitofl_outfit"
+    ],
+    "237": [
+      "quickreference_when_to_apply"
+    ],
+    "238": [
+      "shadcncomponents_accordion"
+    ],
+    "239": [
+      "shadcncomponents_alert"
+    ],
+    "240": [
+      "shadcncomponents_alertdialog"
+    ],
+    "241": [
+      "shadcncomponents_avatar"
+    ],
+    "242": [
+      "shadcncomponents_badge"
+    ],
+    "243": [
+      "shadcncomponents_checkbox"
+    ],
+    "244": [
+      "shadcncomponents_drawer"
+    ],
+    "245": [
+      "shadcncomponents_navigationmenu"
+    ],
+    "246": [
+      "shadcncomponents_popover"
+    ],
+    "247": [
+      "shadcncomponents_progress"
+    ],
+    "248": [
+      "shadcncomponents_radiogroup"
+    ],
+    "249": [
+      "shadcncomponents_skeleton"
+    ],
+    "250": [
+      "shadcncomponents_switch"
+    ],
+    "251": [
+      "shadcncomponents_table"
+    ],
+    "252": [
+      "shadcncomponents_tabs"
+    ],
+    "253": [
+      "shadcncomponents_textarea"
+    ],
+    "254": [
+      "slides_copywriting_formulas_before_after_bridge"
+    ],
+    "255": [
+      "slides_copywriting_formulas_cost_of_inaction"
+    ],
+    "256": [
+      "visualidentitybasics_visualguidelinestemplate"
+    ]
+  },
+  "cohesion": {
+    "0": 0.06559356136820925,
+    "1": 0.05370101596516691,
+    "2": 0.05370101596516691,
+    "3": 0.041666666666666664,
+    "4": 0.04734299516908213,
+    "5": 0.0595959595959596,
+    "6": 0.07200929152148665,
+    "7": 0.07200929152148665,
+    "8": 0.07307692307692308,
+    "9": 0.07307692307692308,
+    "10": 0.09047619047619047,
+    "11": 0.09047619047619047,
+    "12": 0.058823529411764705,
+    "13": 0.058823529411764705,
+    "14": 0.13756613756613756,
+    "15": 0.13756613756613756,
+    "16": 0.08,
+    "17": 0.1341991341991342,
+    "18": 0.1341991341991342,
+    "19": 0.11255411255411256,
+    "20": 0.14736842105263157,
+    "21": 0.14736842105263157,
+    "22": 0.14736842105263157,
+    "23": 0.14736842105263157,
+    "24": 0.10526315789473684,
+    "25": 0.11695906432748537,
+    "26": 0.16993464052287582,
+    "27": 0.16993464052287582,
+    "28": 0.1111111111111111,
+    "29": 0.19117647058823528,
+    "30": 0.19117647058823528,
+    "31": 0.11764705882352941,
+    "32": 0.2,
+    "33": 0.13333333333333333,
+    "34": 0.125,
+    "35": 0.2,
+    "36": 0.13333333333333333,
+    "37": 0.125,
+    "38": 0.13333333333333333,
+    "39": 0.14285714285714285,
+    "40": 0.13333333333333333,
+    "41": 0.23076923076923078,
+    "42": 0.23076923076923078,
+    "43": 0.2857142857142857,
+    "44": 0.15384615384615385,
+    "45": 0.2857142857142857,
+    "46": 0.15384615384615385,
+    "47": 0.19696969696969696,
+    "48": 0.22727272727272727,
+    "49": 0.18181818181818182,
+    "50": 0.18181818181818182,
+    "51": 0.28888888888888886,
+    "52": 0.2,
+    "53": 0.28888888888888886,
+    "54": 0.28888888888888886,
+    "55": 0.2,
+    "56": 0.2222222222222222,
+    "57": 0.2777777777777778,
+    "58": 0.2222222222222222,
+    "59": 0.35714285714285715,
+    "60": 0.2857142857142857,
+    "61": 0.2857142857142857,
+    "62": 0.25,
+    "63": 0.2857142857142857,
+    "64": 0.35714285714285715,
+    "65": 0.2857142857142857,
+    "66": 0.25,
+    "67": 0.25,
+    "68": 0.42857142857142855,
+    "69": 0.2857142857142857,
+    "70": 0.4666666666666667,
+    "71": 0.4666666666666667,
+    "72": 0.4666666666666667,
+    "73": 0.4,
+    "74": 0.4666666666666667,
+    "75": 0.4666666666666667,
+    "76": 0.4666666666666667,
+    "77": 0.4666666666666667,
+    "78": 0.3333333333333333,
+    "79": 0.4,
+    "80": 0.6,
+    "81": 0.6,
+    "82": 0.6,
+    "83": 0.7,
+    "84": 0.4,
+    "85": 0.6,
+    "86": 0.4,
+    "87": 0.5,
+    "88": 0.6666666666666666,
+    "89": 0.6666666666666666,
+    "90": 0.6666666666666666,
+    "91": 0.6666666666666666,
+    "92": 0.6666666666666666,
+    "93": 0.6666666666666666,
+    "94": 0.6666666666666666,
+    "95": 0.8333333333333334,
+    "96": 0.8333333333333334,
+    "97": 0.5,
+    "98": 0.5,
+    "99": 0.6666666666666666,
+    "100": 0.6666666666666666,
+    "101": 0.6666666666666666,
+    "102": 0.6666666666666666,
+    "103": 0.6666666666666666,
+    "104": 0.6666666666666666,
+    "105": 0.6666666666666666,
+    "106": 0.6666666666666666,
+    "107": 0.6666666666666666,
+    "108": 0.6666666666666666,
+    "109": 0.6666666666666666,
+    "110": 0.6666666666666666,
+    "111": 1.0,
+    "112": 1.0,
+    "113": 1.0,
+    "114": 1.0,
+    "115": 1.0,
+    "116": 1.0,
+    "117": 1.0,
+    "118": 1.0,
+    "119": 1.0,
+    "120": 1.0,
+    "121": 1.0,
+    "122": 1.0,
+    "123": 1.0,
+    "124": 1.0,
+    "125": 1.0,
+    "126": 1.0,
+    "127": 1.0,
+    "128": 1.0,
+    "129": 1.0,
+    "130": 1.0,
+    "131": 1.0,
+    "132": 1.0,
+    "133": 1.0,
+    "134": 1.0,
+    "135": 1.0,
+    "136": 1.0,
+    "137": 1.0,
+    "138": 1.0,
+    "139": 1.0,
+    "140": 1.0,
+    "141": 1.0,
+    "142": 1.0,
+    "143": 1.0,
+    "144": 1.0,
+    "145": 1.0,
+    "146": 1.0,
+    "147": 1.0,
+    "148": 1.0,
+    "149": 1.0,
+    "150": 1.0,
+    "151": 1.0,
+    "152": 1.0,
+    "153": 1.0,
+    "154": 1.0,
+    "155": 1.0,
+    "156": 1.0,
+    "157": 1.0,
+    "158": 1.0,
+    "159": 1.0,
+    "160": 1.0,
+    "161": 1.0,
+    "162": 1.0,
+    "163": 1.0,
+    "164": 1.0,
+    "165": 1.0,
+    "166": 1.0,
+    "167": 1.0,
+    "168": 1.0,
+    "169": 1.0,
+    "170": 1.0,
+    "171": 1.0,
+    "172": 1.0,
+    "173": 1.0,
+    "174": 1.0,
+    "175": 1.0,
+    "176": 1.0,
+    "177": 1.0,
+    "178": 1.0,
+    "179": 1.0,
+    "180": 1.0,
+    "181": 1.0,
+    "182": 1.0,
+    "183": 1.0,
+    "184": 1.0,
+    "185": 1.0,
+    "186": 1.0,
+    "187": 1.0,
+    "188": 1.0,
+    "189": 1.0,
+    "190": 1.0,
+    "191": 1.0,
+    "192": 1.0,
+    "193": 1.0,
+    "194": 1.0,
+    "195": 1.0,
+    "196": 1.0,
+    "197": 1.0,
+    "198": 1.0,
+    "199": 1.0,
+    "200": 1.0,
+    "201": 1.0,
+    "202": 1.0,
+    "203": 1.0,
+    "204": 1.0,
+    "205": 1.0,
+    "206": 1.0,
+    "207": 1.0,
+    "208": 1.0,
+    "209": 1.0,
+    "210": 1.0,
+    "211": 1.0,
+    "212": 1.0,
+    "213": 1.0,
+    "214": 1.0,
+    "215": 1.0,
+    "216": 1.0,
+    "217": 1.0,
+    "218": 1.0,
+    "219": 1.0,
+    "220": 1.0,
+    "221": 1.0,
+    "222": 1.0,
+    "223": 1.0,
+    "224": 1.0,
+    "225": 1.0,
+    "226": 1.0,
+    "227": 1.0,
+    "228": 1.0,
+    "229": 1.0,
+    "230": 1.0,
+    "231": 1.0,
+    "232": 1.0,
+    "233": 1.0,
+    "234": 1.0,
+    "235": 1.0,
+    "236": 1.0,
+    "237": 1.0,
+    "238": 1.0,
+    "239": 1.0,
+    "240": 1.0,
+    "241": 1.0,
+    "242": 1.0,
+    "243": 1.0,
+    "244": 1.0,
+    "245": 1.0,
+    "246": 1.0,
+    "247": 1.0,
+    "248": 1.0,
+    "249": 1.0,
+    "250": 1.0,
+    "251": 1.0,
+    "252": 1.0,
+    "253": 1.0,
+    "254": 1.0,
+    "255": 1.0,
+    "256": 1.0
+  },
+  "gods": [
+    {
+      "id": "agents_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator",
+      "label": "TestTailwindConfigGenerator",
+      "degree": 35
+    },
+    {
+      "id": "claude_skills_ui_styling_scripts_tests_test_tailwind_config_gen_py_tests_test_tailwind_config_gen_testtailwindconfiggenerator",
+      "label": "TestTailwindConfigGenerator",
+      "degree": 35
+    },
+    {
+      "id": "agents_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller",
+      "label": "TestShadcnInstaller",
+      "degree": 26
+    },
+    {
+      "id": "claude_skills_ui_styling_scripts_tests_test_shadcn_add_py_tests_test_shadcn_add_testshadcninstaller",
+      "label": "TestShadcnInstaller",
+      "degree": 26
+    },
+    {
+      "id": "claude_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator",
+      "label": "TailwindConfigGenerator",
+      "degree": 23
+    },
+    {
+      "id": "agents_skills_ui_styling_scripts_tailwind_config_gen_py_scripts_tailwind_config_gen_tailwindconfiggenerator",
+      "label": "TailwindConfigGenerator",
+      "degree": 21
+    },
+    {
+      "id": "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_semantic_color",
+      "label": "color",
+      "degree": 15
+    },
+    {
+      "id": "claude_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_semantic_color",
+      "label": "color",
+      "degree": 15
+    },
+    {
+      "id": "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_color_gray",
+      "label": "gray",
+      "degree": 12
+    },
+    {
+      "id": "agents_skills_design_system_templates_design_tokens_starter_json_templates_design_tokens_starter_primitive_spacing",
+      "label": "spacing",
+      "degree": 12
+    }
+  ],
+  "surprises": [
+    {
+      "source": "UI UX Pro Max Website Screenshot",
+      "target": "Accessibility",
+      "source_files": [
+        "screenshots/website.png",
+        "cli/assets/templates/base/quick-reference.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 image); connects across different repos/directories; peripheral node `Accessibility` unexpectedly reaches hub `UI UX Pro Max Website Screenshot`"
+    },
+    {
+      "source": "UI UX Pro Max Website Screenshot",
+      "target": "Performance",
+      "source_files": [
+        "screenshots/website.png",
+        "cli/assets/templates/base/quick-reference.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 image); connects across different repos/directories; peripheral node `Performance` unexpectedly reaches hub `UI UX Pro Max Website Screenshot`"
+    },
+    {
+      "source": "UI UX Pro Max Website Screenshot",
+      "target": "Animation",
+      "source_files": [
+        "screenshots/website.png",
+        "cli/assets/templates/base/quick-reference.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 image); connects across different repos/directories; peripheral node `Animation` unexpectedly reaches hub `UI UX Pro Max Website Screenshot`"
+    },
+    {
+      "source": "UI UX Pro Max Website Screenshot",
+      "target": "Touch & Interaction",
+      "source_files": [
+        "screenshots/website.png",
+        "src/ui-ux-pro-max/templates/base/quick-reference.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 image); connects across different repos/directories; peripheral node `Touch & Interaction` unexpectedly reaches hub `UI UX Pro Max Website Screenshot`"
+    },
+    {
+      "source": "UI UX Pro Max Website Screenshot",
+      "target": "Style Selection",
+      "source_files": [
+        "screenshots/website.png",
+        "src/ui-ux-pro-max/templates/base/quick-reference.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 image); connects across different repos/directories; peripheral node `Style Selection` unexpectedly reaches hub `UI UX Pro Max Website Screenshot`"
+    }
+  ],
+  "tokens": {
+    "input": 287035,
+    "output": 51137
+  }
+}
